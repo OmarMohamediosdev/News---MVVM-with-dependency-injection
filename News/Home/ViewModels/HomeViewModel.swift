@@ -49,5 +49,4 @@ class HomeViewModel {
     func getCellViewModel( at indexPath: IndexPath ) -> NewsCellViewModel {
         return cellViewModels[indexPath.row]
     }
-    
 }
